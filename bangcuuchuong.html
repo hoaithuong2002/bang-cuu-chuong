@@ -5,6 +5,11 @@
     <title>bảng cửu chương</title>
 </head>
 <body>
+<style>
+    td{
+        width: 150px;
+    }
+</style>
 <table id=" bangcuuchuong" border="1px"></table>
 
 <script>
@@ -14,9 +19,9 @@
         for (let j=2;j<=9; j++){
             content+='<td>'+j+'*'+i+'='+j*i+'</td>'
         }
-        content+="</tr>"
+        content+="</tr>";
     }
-    document.getElementById(" bangcuuchuong").innerHTML = content
+    document.getElementById(" bangcuuchuong").innerHTML = content;
 </script>
 
 </body>
